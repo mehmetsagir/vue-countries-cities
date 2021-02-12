@@ -8,7 +8,7 @@ List of countries and cities made for Vue.js <br>
   <a href="https://www.npmjs.com/package/vue-countries-cities"><img src="https://img.shields.io/npm/l/vue-countries-cities.svg?sanitize=true" alt="License"></a>
 </p>
 
-## Live Demo: (vue-countries-cities)[]
+## Live Demo: [vue-countries-cities](https://vue-countries-cities.vercel.app/)
 
 ## Getting Started
 These instructions will get you a copy of the component up and running on your local machine.
@@ -73,6 +73,7 @@ export default{
 ```
 
 - For the forming process
+<br/>
 Main template structure
 ```vue
 <template>
@@ -100,9 +101,7 @@ Default css codes
 .countries-cities {
   display: flex;
   justify-content: space-around;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',  'Helvetica Neue', sans-serif ;
   box-sizing: border-box;
-  
   .select-box {
     display: flex;
     height: 40px;
@@ -111,7 +110,6 @@ Default css codes
     background: #fff;
     position: relative;
     min-width: 300px;
-    
     select {
       outline: none;
       padding-left: 7px;
@@ -122,7 +120,6 @@ Default css codes
       background: none;
       border: none;
     }
-
     svg {
       pointer-events: none;
       background: darken(#fff, 3%);
@@ -133,7 +130,6 @@ Default css codes
       top: 0;
       box-sizing: border-box;
       padding: 5px;
-      
       path {
         fill: rgba(black, .7);
       }
