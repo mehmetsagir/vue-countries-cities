@@ -69,7 +69,7 @@ export default{
 ```
 - To list countries only
 ```vue
-<vueCountriesCities :city='false' />
+  <vueCountriesCities @country='selectedCountry = $event' :city='false' />
 ```
 
 - For the forming process <br/>
