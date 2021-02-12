@@ -4,7 +4,7 @@
             <h1 class="logo">
                 Vue Countries Cities
             </h1>
-            <a class="documentation" href="#" target="_blank">
+            <a class="documentation" href="https://github.com/mehmetsagir/vue-countries-cities/blob/master/README.md" target="_blank">
                 <icon name="book" size="20" />
                 Documentation
             </a>
