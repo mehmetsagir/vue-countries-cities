@@ -7,10 +7,10 @@
         <div class="live-select">
           <div class="select-text">
             <div>
-              Select Country: <span>{{ country }}</span>
+              Selected Country: <span>{{ country }}</span>
             </div>
             <div>
-              Select City: <span>{{ city }}</span>
+              Selected City: <span>{{ city }}</span>
             </div>
           </div>
           <vueCountriesCities
