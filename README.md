@@ -8,7 +8,7 @@ List of countries and cities made for Vue.js <br>
   <a href="https://www.npmjs.com/package/vue-countries-cities"><img src="https://img.shields.io/npm/l/vue-countries-cities.svg?sanitize=true" alt="License"></a>
 </p>
 
-## Live Demo: [vue-countries-cities](https://vue-countries-cities.vercel.app/)
+✨ **Live Demo ->** [vue-countries-cities](https://vue-countries-cities.vercel.app/)
 
 ## Getting Started
 These instructions will get you a copy of the component up and running on your local machine.
@@ -102,31 +102,29 @@ Default css codes
   justify-content: space-around;
   box-sizing: border-box;
   .select-box {
-    display: flex;
     height: 40px;
-    justify-content: space-between;
-    border: 1px solid #e9e9e9;
-    background: #fff;
-    position: relative;
     min-width: 300px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    position: relative;
     select {
-      outline: none;
+      background: none;
+      border: none;
+      outline: none;s
       padding-left: 7px;
       padding-right: 65px;
       appearance: none;
       width: 100%;
       height: 100%;
-      background: none;
-      border: none;
     }
     svg {
-      pointer-events: none;
-      background: darken(#fff, 3%);
-      width: 50px;
-      height: 100%;
       position: absolute;
       right: 0;
       top: 0;
+      width: 50px;
+      height: 100%;
+      background: darken(#fff, 3%);
+      pointer-events: none;
       box-sizing: border-box;
       padding: 5px;
       path {
