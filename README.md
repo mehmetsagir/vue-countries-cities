@@ -21,7 +21,7 @@ You can install vue-countries-cities component by npm
 npm install --save vue-countries-cities
 ```
 
-After download vue-country-Cities package will be ready to use in your vue.js applications
+After download vue-country-cities package will be ready to use in your vue.js applications
 
 ### Usage
 
@@ -72,9 +72,8 @@ export default{
 <vueCountriesCities :city='false' />
 ```
 
-- For the forming process
-<br/>
-Main template structure
+- For the forming process <br/>
+Main template structure 
 ```vue
 <template>
   <div class="countries-cities">
