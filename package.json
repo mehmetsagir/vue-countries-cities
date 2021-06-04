@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "v-svg-icons": "^1.1.2",
+    "v-svg-icons": "^1.1.4",
     "vue": "^2.6.11",
     "vue-countries-cities": "^1.0.0"
   },
